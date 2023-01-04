@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    height: 99vh;
+    width: 98vw;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    border: solid blueviolet;
+}
+.child1{
+    display: flex;
+    height: 50%;
+    width: 40%;
+    flex-flow: column wrap;
+    border: solid green;
+    justify-content: space-around;
+    align-items: center;
+}
+.grand1,.grand2{
+    border:solid goldenrod;
+    height: 10vh;
+    width: 20vh;
+}
+.child2{
+    display: flex;
+    height: 50%;
+    width: 40%;
+    flex-flow: column wrap;
+    border: solid brown;
+}
+.child3{
+    display: flex;
+    height: 47%;
+    width: 40%;
+    flex-flow: column wrap;
+    border: solid chartreuse;
+}
+.child4{
+    display: flex;
+    height: 47%;
+    width: 40%;
+    flex-flow: column wrap;
+    border: solid cornflowerblue;
+}
